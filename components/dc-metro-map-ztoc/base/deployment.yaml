@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-ztoc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-ztoc@sha256:446bb0729094dfc64433fd004c9a98661b43df6a5f1ecb79c7155b0b134fcc5b
         name: my-nodejs
         ports:
         - containerPort: 3001
